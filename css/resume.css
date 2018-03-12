@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', serif;
+  font-family: 'Raleway', serif;
   padding-top: 54px;
   color: #868e96;
 }
@@ -17,15 +17,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
+  font-family: 'Raleway', serif;
   font-weight: 700;
-  text-transform: uppercase;
   color: #343a40;
 }
 
 h1 {
-  font-size: 6rem;
-  line-height: 5.5rem;
+  font-size: 4.5rem;
 }
 
 h2 {
@@ -33,10 +31,9 @@ h2 {
 }
 
 .subheading {
-  text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', serif;
-  font-size: 1.35rem;
+  font-family: 'Raleway', serif;
+  font-size: 1rem;
 }
 
 .list-social-icons a {
@@ -44,7 +41,7 @@ h2 {
 }
 
 .list-social-icons a:hover {
-  color: #BD5D38;
+  color: #192a56;
 }
 
 .list-social-icons a .fa-lg {
@@ -56,12 +53,25 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #192a56;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.round-border {
+  border-radius: 5px;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase;
+  font-size: 0.85em;
 }
 
 @media (min-width: 992px) {
@@ -131,17 +141,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #192a56 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #192a56 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #192a56;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #080d1b;
 }

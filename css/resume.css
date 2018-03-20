@@ -1,7 +1,7 @@
 body {
   font-family: 'Raleway', serif;
   padding-top: 54px;
-  color: #868e96;
+  color: #000;
 }
 
 @media (min-width: 992px) {
@@ -66,6 +66,26 @@ h2 {
 
 .round-border {
   border-radius: 5px;
+}
+
+.position-title {
+  font-size: 1.3rem;
+  color: #35539d;
+}
+
+.name-title {
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+
+.justify-inter-word {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.contact-info {
+  font-size: 0.8rem;
+  opacity: 0.4;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {

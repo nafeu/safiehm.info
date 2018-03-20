@@ -3,7 +3,7 @@
 body {
   @include body-font;
   padding-top: 54px;
-  color: $gray-600;
+  color: $black;
 }
 @media (min-width: 992px) {
   body {
@@ -68,4 +68,24 @@ h2 {
 
 .round-border {
   border-radius: 5px;
+}
+
+.position-title {
+  font-size: 1.3rem;
+  color: $dark-blue;
+}
+
+.name-title {
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+
+.justify-inter-word {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.contact-info {
+  font-size: 0.8rem;
+  opacity: 0.4;
 }
